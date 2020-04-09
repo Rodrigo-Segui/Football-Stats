@@ -1,8 +1,4 @@
-<p align="center">
-  <img width="350" height="200" src="./static/gremioesportivobagecapa.png"></img>
-</p>
-<h1 align="center">Grêmio Esportivo Bagé</h1>
-<p align="center">Projeto <strong>Site Esportivo</strong> desenvolvido durante a Quarentena</p>
+<h3 align="center">Projeto <strong>Site Esportivo</strong> desenvolvido durante a Quarentena</h3>
 
 
 ## Rodar projeto:
