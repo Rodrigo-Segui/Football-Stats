@@ -1,7 +1,6 @@
 exports.up = function (knex) {
     return knex.schema.createTable('jogadores', function (table) {
         table.increments();
-        table.string('placar').notNullable();
         table.string('nome').notNullable();
         table.string('posicao').notNullable();
         table.date('nascimento').notNullable();

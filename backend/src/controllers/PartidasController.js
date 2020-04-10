@@ -2,7 +2,7 @@ const connection = require('../db/connection');
 
 module.exports = {
     async create (req, res) {
-        const { adversario_id, golsPro, golsCon, local, estadio, campeonato, data, hora } = req.body;
+        const { adversario_id, golsPro, golsCon, local, estadio, campeonato_id, data, hora } = req.body;
     
         await connection('partidas').insert({
             adversario_id,
@@ -10,7 +10,7 @@ module.exports = {
             golsCon,
             local,
             estadio,
-            campeonato,
+            campeonato_id,
             data,
             hora
         });
