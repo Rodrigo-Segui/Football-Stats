@@ -1,11 +1,13 @@
 <h3 align="center">Projeto <strong>Site Esportivo</strong> desenvolvido durante a Quarentena</h3>
 
 
-## Rodar projeto:
+## Getting started:
 
 ```
 npm install
 nodemon index.js
+npm install -g knex
+npm install knex pg --save
 ```
 
 ### PostgreSQL:
@@ -15,14 +17,14 @@ nodemon index.js
   <li>Ajustar configs no arquivo 'knexfile.js'</li>
 </ul>
 
-### Criar migrate:
-
-```
-knex migrate:make nome_da_migrate
-```
-
-### Rodar migrate:
+### Criar tabelas:
 
 ```
 knex migrate:latest
+```
+
+### Inserir dados:
+
+```
+knex seed:run
 ```
